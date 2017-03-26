@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hshack.explorehappylania.About">
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="385dp"
+        android:layout_height="519dp"
+        app:srcCompat="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <ImageView
+        android:id="@+id/transparentDesign"
+        android:layout_width="392dp"
+        android:layout_height="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/f"
+        android:alpha=".9"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:text="         ABOUT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:layout_constraintHorizontal_bias="0.135" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="373dp"
+        android:layout_height="317dp"
+        android:text="This app was created by me, Prerana Kiran.
+I made it as a satirical impression of the mind of a high school student. The college bridge is the path to admission that students strive for as their major goal in life. The APi Plateau represents AP classes and other difficult skills that students acquire in order to get into college. The Illuminati hills are the mind of the student, and like their namesake, their operations are unknown yet crucial. The drought in the sands of sleep desert due to the guilty pleasure of procrastination from procrastination park represents the lack of sleeps students get from procrastination and other things. The stresscano is the symbol of extreme stress and shows how too much can be bad for the person. The mayor morpheus is based off of the greek god of sleep, and the peninsula is stationery and other things students use to do work. Wifi valley represents the essential need of wifi in students lives, and Memewood demonstrates the current high school student’s obsession with memes and the solace that it brings."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.545" />
+
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="226dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198"
+        app:srcCompat="@drawable/prerana" />
+
+    <Button
+        android:id="@+id/return_map"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="84dp"
+        android:layout_height="64dp"
+        android:text="back to map"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+</android.support.constraint.ConstraintLayout>

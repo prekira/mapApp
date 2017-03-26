@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hshack.explorehappylania.WifiValley">
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="385dp"
+        android:layout_height="519dp"
+        app:srcCompat="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <ImageView
+        android:id="@+id/transparentDesign"
+        android:layout_width="392dp"
+        android:layout_height="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/h"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-5dp"
+        android:alpha=".9"/>
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="319dp"
+        android:layout_height="279dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275"
+        app:srcCompat="@drawable/wifivalley"
+        app:layout_constraintHorizontal_bias="0.507" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:text="      Wifi Valley"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.135" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="259dp"
+        android:layout_height="157dp"
+        android:text="Wifi valley is the residential area of Happylania. It is calm and nourished daily by the nectar-like rains from the Internet clouds. This efficient area replenishes power plants with non-toxic, renewable energy, and heals the land after disasters. It even boosts production levels of workers of the bridge.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteY="354dp" />
+
+
+    <Button
+        android:id="@+id/return_map"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="84dp"
+        android:layout_height="64dp"
+        android:text="back to map"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+</android.support.constraint.ConstraintLayout>

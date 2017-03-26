@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hshack.explorehappylania.ApiPlateau">
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="385dp"
+        android:layout_height="519dp"
+        app:srcCompat="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/transparentDesign"
+        android:layout_width="392dp"
+        android:layout_height="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/a"
+        android:alpha=".9"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:text="      APi Plateau"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.135" />
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintVertical_bias="1.44"
+        app:layout_constraintHorizontal_bias="0.523">
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="332dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/api" />
+
+    <Button
+        android:id="@+id/return_map"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="64dp"
+        android:text="back to map"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="361dp"
+        android:layout_height="240dp"
+        android:text="This massive 400 foot tall structure is one of the most difficult terrains in HappyLania.
+     However, it is one of the most sought after locales because it houses the gremlins. The gremlins grant wishes and hold captive the magical seeds needed to grow the college bridge. There are two kinds of gremlins, APs and APis, both of which claim to be the origins of the name of the plateau. Despite differences in popular opinion, most struggle for the APs, which hold more power while only some attempt to obtain the seeds of the APis as a supplement for bridge supports.
+     Their power is a double-edged sword, since climbing the sides of the plateau is extremely treacherous, with the possibility of landslides at any second. One moment you might be nearly at the top, and the next instant you’ll be hanging off of a branch, grasping for dear life. Not only that, but the gremlins throw rocks and stones and ceaselessly taunt seekers until they are caught. Each one is worth its weight in gold, making the APi Plateau priceless.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>

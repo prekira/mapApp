@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hshack.explorehappylania.ProcrastinationPark">
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="385dp"
+        android:layout_height="519dp"
+        app:srcCompat="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <ImageView
+        android:id="@+id/transparentDesign"
+        android:layout_width="392dp"
+        android:layout_height="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/e"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-5dp"
+        android:alpha=".9"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:text="Procrastination Park"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:layout_constraintHorizontal_bias="0.135" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="360dp"
+        android:layout_height="250dp"
+        android:text="Procrastination Park is the amusement park of indulgence and excitement. It houses all of the casinos, clubs, arcades, entertainment, and rides of HappyLania. However, the great fun comes with great danger. The park is over a sinkhole and fault line that have the potential to collapse at any time. As a result, only a certain number of HappyLanians can be at the park at any given time. In addition, the horrible Testing Trolls constantly attack the area, sometimes even overcoming barriers and almost escaping into the Illuminati mountains. Because of the taxing nature of the park, it uses up most of the natural resources, causing loss of biodiversity and worsening conditions in the adjacent Sands of Sleep desert. Sometimes, tremors can trigger eruptions from the active Stresscano.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="332dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237"
+        app:srcCompat="@drawable/rollercoaster" />
+
+    <Button
+        android:id="@+id/return_map"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="84dp"
+        android:layout_height="64dp"
+        android:text="back to map"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+
+</android.support.constraint.ConstraintLayout>

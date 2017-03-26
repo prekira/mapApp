@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hshack.explorehappylania.MapActivity">
+
+    <Button
+        android:id="@+id/about"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="about"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="389dp"
+        android:layout_height="533dp"
+        app:srcCompat="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/wifi"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/wifi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <ImageView
+        android:id="@+id/bridge_college"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/plateau"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageView
+        android:id="@+id/memewood"
+        android:layout_width="87dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/desert"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <Button
+        android:id="@+id/illuminati"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="illuminati"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/peninsula"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="70dp"
+        android:layout_height="59dp"
+        android:text="peninsula"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <Button
+        android:id="@+id/stresscano"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="stresscano"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <Button
+        android:id="@+id/api_plateau"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="apiplateau"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/wifi_valley"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="74dp"
+        android:layout_height="84dp"
+        android:text="wifi valley"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/memewood"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="memewood"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <Button
+        android:id="@+id/sleep_desert"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="sleep_desert"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <Button
+        android:id="@+id/college"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="college"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:id="@+id/procrastination_park"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:text="procrastination_park"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="82dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/college"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="-17dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="76dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/memewood"
+        tools:layout_editor_absoluteY="335dp"
+        tools:layout_editor_absoluteX="165dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/peninsula"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="84dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/stresscano"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="74dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/propark"
+        tools:layout_editor_absoluteY="320dp"
+        tools:layout_editor_absoluteX="72dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="71dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/about"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="7dp" />
+
+
+</android.support.constraint.ConstraintLayout>
